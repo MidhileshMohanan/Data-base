@@ -1,0 +1,23 @@
+Dwin display auto script run in package install
+
+open file manager
+
+1. install : Termux ,Termux:Bot and and Nurse Call Application
+
+2. Script.sh file copy and internal storage paste file in location
+
+open Termux :
+
+1. termux-setup-storage                             // Allow termux storage in access
+
+2.ls , cd storage and cd location file Name        // inside in storage file 
+
+3. mv 'sh file name' ~/                           // moving script file in root file 
+
+4. cd ~    // using root file 
+
+5. chmod +x "sh file Name"                      // Active the Script 
+
+6. bash "sh file Name"                         // Run Script 
+
+
